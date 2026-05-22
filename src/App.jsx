@@ -1351,8 +1351,18 @@ const [leadModalOpen, setLeadModalOpen] = useState(false);
           <div style={{display:"flex",alignItems:"center",gap:10}}>
             <div style={{width:40,height:40,borderRadius:11,background:"linear-gradient(135deg,#4f6ef7,#7c3aed)",display:"flex",alignItems:"center",justifyContent:"center",fontSize:18,animation:"float 4s ease-in-out infinite"}}>🎯</div>
             <div>
-              <div style={{fontSize:32,fontWeight:900,background:"linear-gradient(135deg,#7c9eff,#c084fc)",WebkitBackgroundClip:"text",WebkitTextFillColor:"transparent"}}>
-                {t("Path Finder","पाथ फाइंडर")}
+              <div <div style={{
+    fontSize: "clamp(18px, 3vw, 20px)", // 18px chota, 24px bada, screen ke hisaab se adjust hoga
+    fontWeight: "700",             
+    fontStyle: "italic",           
+    letterSpacing: "0.5px",        
+    background: "linear-gradient(135deg, #7c9eff, #c084fc)",
+    WebkitBackgroundClip: "text",
+    WebkitTextFillColor: "transparent",
+    textTransform: "uppercase"      
+}}>
+    {t("Path Finder", "पाथ फाइंडर")}
+</div>
               </div>
               <div style={{fontSize:10,color:"#4f6ef7",fontWeight:500}}>{t("55+ Exams • Subject-wise Analysis • AI Recs • 2025-26","55+ परीक्षाएं • विषयवार • AI सिफारिश • 2025-26")}</div>
             </div>
