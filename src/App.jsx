@@ -1364,7 +1364,7 @@ const [leadModalOpen, setLeadModalOpen] = useState(false);
     {t("Path Finder", "पाथ फाइंडर")}
 </div>
               </div>
-              <div style={{fontSize:10,color:"#4f6ef7",fontWeight:500}}>{t("55+ Exams • Subject-wise Analysis • AI Recs • 2025-26","55+ परीक्षाएं • विषयवार • AI सिफारिश • 2025-26")}</div>
+              <div style={{fontSize:10,color:"#4f6ef7",fontWeight:300}}>{t("55+ Exams • Subject-wise Analysis • AI Recs • 2025-26","55+ परीक्षाएं • विषयवार • AI सिफारिश • 2025-26")}</div>
             </div>
           </div>
           <div style={{display:"flex",gap:7,alignItems:"center",flexWrap:"wrap"}}>
@@ -1386,7 +1386,7 @@ const [leadModalOpen, setLeadModalOpen] = useState(false);
           <div style={{display:"inline-flex",alignItems:"center",gap:5,background:"#4f6ef711",border:"1px solid #4f6ef744",borderRadius:18,padding:"3px 12px",fontSize:11,color:"#7c9eff",marginBottom:12}}>
             <span className="gdot"/> {t("2025-26 Official Data • 55+ Exams • All States • AI Recommendations","2025-26 आधिकारिक डेटा • 55+ परीक्षाएं • सभी राज्य • AI सिफारिशें")}
           </div>
-          <h1 style={{fontSize:"clamp(24px,4vw,40px)",fontWeight:800,background:"linear-gradient(135deg,#e8ecf4,#7c9eff,#c084fc)",WebkitBackgroundClip:"text",WebkitTextFillColor:"transparent",lineHeight:1.2,marginBottom:10}}>
+          <h1 style={{fontSize:"clamp(20px,4vw,30px)",fontWeight:700,background:"linear-gradient(135deg,#e8ecf4,#7c9eff,#c084fc)",WebkitBackgroundClip:"text",WebkitTextFillColor:"transparent",lineHeight:1.2,marginBottom:10}}>
             {t("Your Complete Exam Eligibility & Career Engine","आपका संपूर्ण परीक्षा पात्रता और करियर इंजन")}
           </h1>
           <p style={{color:"#8899cc",fontSize:14,lineHeight:1.7,maxWidth:600,margin:"0 auto 20px",fontFamily:lang==="hi"?"'Noto Sans Devanagari'":"inherit"}}>
